@@ -13,7 +13,30 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Vivian Cheung</small>
+          This project was coded by{" "}
+          <a
+            href="https://github.com/vcheungg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vivian Cheung
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/vcheungg/react-dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on Github.
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://v-dictionary.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify.
+          </a>
         </footer>
       </div>
     </div>
